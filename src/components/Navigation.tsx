@@ -12,16 +12,18 @@ export function Navigation() {
           <a href="/#menu" className="flex items-center px-6 h-[80px] border-l-2 border-[var(--color-primary)] text-[var(--color-dark)] text-lg hover:bg-[var(--color-primary)] hover:text-white transition-all duration-200">
             MENU
           </a>
-          <a href="/#about" className="flex items-center px-6 h-[80px] border-l-2 border-[var(--color-primary)] text-[var(--color-dark)] text-lg hover:bg-[var(--color-primary)] hover:text-white transition-all duration-200">
-            ÜBER UNS
-          </a>
           <a href="/#locations" className="flex items-center px-6 h-[80px] border-l-2 border-[var(--color-primary)] text-[var(--color-dark)] text-lg hover:bg-[var(--color-primary)] hover:text-white transition-all duration-200">
             STANDORTE
           </a>
           <a href="/catering" className="flex items-center px-6 h-[80px] border-l-2 border-[var(--color-primary)] text-[var(--color-dark)] text-lg hover:bg-[var(--color-primary)] hover:text-white transition-all duration-200">
             CATERING
           </a>
-          <a href="/#order" className="flex items-center px-8 h-[80px] border-l-2 border-[var(--color-primary)] bg-[var(--color-primary)] text-white text-lg hover:bg-[#d91f3a] transition-all duration-200 shadow-[var(--shadow-button)]">
+          <a 
+            href="https://wolt.com/de/deu/munich/restaurant/the-original-burger-tacos?srsltid=AfmBOopl7TuwZAm90WNUXuZZ527bvjniVn-tqqHHSESrxagdy-TK9hVS" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center px-8 h-[80px] border-l-2 border-[var(--color-primary)] bg-[var(--color-primary)] text-white text-lg hover:bg-[#d91f3a] transition-all duration-200 shadow-[var(--shadow-button)]"
+          >
             JETZT BESTELLEN
           </a>
         </div>

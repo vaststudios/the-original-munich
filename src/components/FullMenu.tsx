@@ -8,13 +8,18 @@ interface MenuItemProps {
 
 function MenuItem({ title, description, price }: MenuItemProps) {
   return (
-    <div className="group flex items-center justify-between w-full py-3 border-b border-[var(--color-primary)] hover:bg-white/50 hover:px-3 transition-all duration-200 cursor-pointer">
+    <a 
+      href="https://wolt.com/de/deu/munich/restaurant/the-original-burger-tacos?srsltid=AfmBOopl7TuwZAm90WNUXuZZ527bvjniVn-tqqHHSESrxagdy-TK9hVS"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group flex items-center justify-between w-full py-3 border-b border-[var(--color-primary)] hover:bg-white/50 hover:px-3 transition-all duration-200 cursor-pointer"
+    >
       <div className="flex flex-col gap-1">
         <span className="text-lg text-[var(--color-dark)] group-hover:text-[var(--color-primary)] transition-colors">{title}</span>
         {description && <span className="text-xs text-[var(--color-dark)] opacity-70">{description}</span>}
       </div>
       <span className="text-lg text-[var(--color-dark)] group-hover:text-[var(--color-primary)] transition-colors">{price}</span>
-    </div>
+    </a>
   );
 }
 
