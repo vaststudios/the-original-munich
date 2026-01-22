@@ -59,8 +59,24 @@ export default function CateringPage() {
       {/* Hero Section */}
       <section className="w-full bg-[var(--color-primary-light)]">
         <div className="flex w-full h-[500px] max-w-[1180px] mx-auto border-x-2 border-b-2 border-[var(--color-primary)]">
-          {/* Left Side - Text Content */}
-          <div className="flex flex-col justify-between flex-1 bg-white p-12 border-r-2 border-[var(--color-primary)]">
+          {/* Left Side - Image */}
+          <div className="relative flex-1 bg-[var(--color-primary-light)] overflow-hidden border-r-2 border-[var(--color-primary)]">
+            <Image
+              src="/images/atmosphere.jpeg"
+              alt="Event Catering"
+              fill
+              className="object-cover"
+              priority
+            />
+            {/* 100% TASTE Badge */}
+            <div className="absolute left-[40px] bottom-[40px] w-[100px] h-[100px] rounded-full bg-[var(--color-primary)] border-2 border-[var(--color-dark)] flex flex-col items-center justify-center rotate-12 shadow-lg transition-transform duration-300 hover:rotate-6 hover:scale-105">
+              <span className="text-white text-base text-center">100%</span>
+              <span className="text-white text-base text-center">TASTE</span>
+            </div>
+          </div>
+
+          {/* Right Side - Text Content */}
+          <div className="flex flex-col justify-between flex-1 bg-white p-12">
             <div className="flex flex-col gap-4">
               <span className="inline-block px-4 py-2 border-2 border-[var(--color-primary)] rounded-full text-sm text-[var(--color-primary)] tracking-[2px] w-fit">
                 EXKLUSIV FÜR FIRMEN
@@ -77,22 +93,6 @@ export default function CateringPage() {
             <p className="text-lg text-[var(--color-dark)] leading-[1.4] tracking-wide">
               WIR BRINGEN EUCH DIE BESTEN SMASH BURGERS &amp; TACOS DIREKT ZU EUREM EVENT.
             </p>
-          </div>
-
-          {/* Right Side - Image */}
-          <div className="relative flex-1 bg-[var(--color-primary-light)] overflow-hidden">
-            <Image
-              src="/images/hero-burger.jpeg"
-              alt="Event Catering"
-              fill
-              className="object-cover"
-              priority
-            />
-            {/* 100% TASTE Badge */}
-            <div className="absolute right-[40px] bottom-[40px] w-[100px] h-[100px] rounded-full bg-[var(--color-primary)] border-2 border-[var(--color-dark)] flex flex-col items-center justify-center rotate-12 shadow-lg transition-transform duration-300 hover:rotate-6 hover:scale-105">
-              <span className="text-white text-base text-center">100%</span>
-              <span className="text-white text-base text-center">TASTE</span>
-            </div>
           </div>
         </div>
       </section>
@@ -115,31 +115,31 @@ export default function CateringPage() {
           {/* Card 1 */}
           <div className="flex-1 bg-white border-r-2 border-[var(--color-primary)]">
             <div className="relative h-[200px] border-b-2 border-[var(--color-primary)] overflow-hidden">
-              <Image src="/images/og-smash.jpeg" alt="Smash Burger" fill className="object-cover" />
+              <Image src="/images/og-smash.jpeg" alt="Original Cheeseburger" fill className="object-cover" />
             </div>
             <div className="p-6">
-              <h3 className="text-xl text-[var(--color-dark)]">SMASH BURGER</h3>
-              <p className="text-xs text-[var(--color-dark)] opacity-70 mt-1">DOUBLE BEEF, CHEESE, SECRET SAUCE</p>
+              <h3 className="text-xl text-[var(--color-dark)]">ORIGINAL CHEESEBURGER</h3>
+              <p className="text-xs text-[var(--color-dark)] opacity-70 mt-1">BAVARIAN BEEF, AMERICAN CHEESE, ONIONS, TOMATOES, BURGER SAUCE</p>
             </div>
           </div>
           {/* Card 2 */}
           <div className="flex-1 bg-white border-r-2 border-[var(--color-primary)]">
             <div className="relative h-[200px] border-b-2 border-[var(--color-primary)] overflow-hidden">
-              <Image src="/images/birria-tacos.jpeg" alt="Birria Tacos" fill className="object-cover" />
+              <Image src="/images/birria-tacos.jpeg" alt="Steak Taco" fill className="object-cover" />
             </div>
             <div className="p-6">
-              <h3 className="text-xl text-[var(--color-dark)]">BIRRIA TACOS</h3>
-              <p className="text-xs text-[var(--color-dark)] opacity-70 mt-1">SLOW COOKED BEEF, CONSOMMÉ</p>
+              <h3 className="text-xl text-[var(--color-dark)]">STEAK TACO</h3>
+              <p className="text-xs text-[var(--color-dark)] opacity-70 mt-1">BAVARIAN STEAK, GESCHMOLZENEM KÄSE, ZWIEBELN UND KORIANDER</p>
             </div>
           </div>
           {/* Card 3 */}
           <div className="flex-1 bg-white">
             <div className="relative h-[200px] border-b-2 border-[var(--color-primary)] overflow-hidden">
-              <Image src="/images/fish-tacos.jpeg" alt="Cheese Fries" fill className="object-cover" />
+              <Image src="/images/WhatsApp Image 2026-01-20 at 16.09.11 (2).jpeg" alt="Guacamole mit Chips" fill className="object-cover" />
             </div>
             <div className="p-6">
-              <h3 className="text-xl text-[var(--color-dark)]">CHEESE FRIES</h3>
-              <p className="text-xs text-[var(--color-dark)] opacity-70 mt-1">CHEESE, BACON, JALAPEÑOS</p>
+              <h3 className="text-xl text-[var(--color-dark)]">GUACAMOLE MIT CHIPS</h3>
+              <p className="text-xs text-[var(--color-dark)] opacity-70 mt-1">FRISCH GEMACHTE GUACAMOLE MIT CRISPY CHIPS</p>
             </div>
           </div>
         </div>
@@ -156,7 +156,7 @@ export default function CateringPage() {
           {/* Right - Text */}
           <div className="flex-1 bg-white p-12 flex items-center justify-center">
             <p className="text-lg text-[var(--color-dark)] text-center leading-[1.4] tracking-wide">
-              OB KLEIN ODER GROSS: JEDE BESTELLUNG ZÄHLT. OHNE MINDESTBESTELLWERT, OHNE LIMITS.
+              EXKLUSIV FÜR FIRMEN: 10% RABATT AUF ALLE CATERING-BESTELLUNGEN. PERFEKT FÜR EVENTS, TEAMBUILDING UND FIRMENFEIERN.
             </p>
           </div>
         </div>
