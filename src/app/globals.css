@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #fa2c49;
+  --color-primary-light: #feebf0;
+  --color-dark: #1a1a1a;
+  --color-white: #ffffff;
+
+  /* Layout */
+  --max-width: 1180px;
+
+  /* Shadows (brand-tinted) */
+  --shadow-card: 0 4px 16px rgba(250, 44, 73, 0.08);
+  --shadow-card-hover: 0 8px 24px rgba(250, 44, 73, 0.15);
+  --shadow-button: 0 2px 8px rgba(250, 44, 73, 0.2);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  .font-anton {
+    font-family: "Anton", sans-serif;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.33%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
