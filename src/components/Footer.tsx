@@ -49,6 +49,28 @@ export function Footer() {
             <a href="/impressum" className="text-xs text-[var(--color-dark)] hover:text-[var(--color-primary)] transition-colors">IMPRESSUM</a>
           </div>
         </div>
+
+        {/* Coded with a Vibe Section */}
+        <div className="flex justify-center items-center gap-3 w-full pt-6 border-t border-[var(--color-primary)]">
+          <a 
+            href="https://vaststudios.com?utm_source=theoriginal-munich&utm_medium=website&utm_campaign=footer-link" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 group opacity-70 hover:opacity-100 transition-all duration-300"
+          >
+            <span className="text-xs text-[var(--color-dark)] tracking-wider font-medium">CODED WITH A VIBE</span>
+            <span className="text-[var(--color-primary)] text-lg leading-none">•</span>
+            <div className="flex items-center">
+              <Image 
+                src="/vast-logo.svg" 
+                alt="Vast Studios" 
+                width={90} 
+                height={17} 
+                className="h-[17px] w-auto transition-transform duration-300 group-hover:scale-105"
+              />
+            </div>
+          </a>
+        </div>
       </div>
     </footer>
   );
