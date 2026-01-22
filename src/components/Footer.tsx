@@ -26,15 +26,27 @@ export function Footer() {
               <a href="/#menu" className="text-base text-[var(--color-dark)] hover:text-[var(--color-primary)] hover:translate-x-1 transition-all duration-200">MENU</a>
               <a href="/#locations" className="text-base text-[var(--color-dark)] hover:text-[var(--color-primary)] hover:translate-x-1 transition-all duration-200">STANDORTE</a>
               <a href="/catering" className="text-base text-[var(--color-dark)] hover:text-[var(--color-primary)] hover:translate-x-1 transition-all duration-200">CATERING</a>
-              <a href="#" className="text-base text-[var(--color-dark)] hover:text-[var(--color-primary)] hover:translate-x-1 transition-all duration-200">ÜBER UNS</a>
             </div>
 
             {/* Social Links */}
             <div className="flex flex-col gap-3">
               <span className="text-sm text-[var(--color-primary)] tracking-[2px]">FOLLOW US</span>
-              <a href="#" className="text-base text-[var(--color-dark)] hover:text-[var(--color-primary)] hover:translate-x-1 transition-all duration-200">INSTAGRAM</a>
-              <a href="#" className="text-base text-[var(--color-dark)] hover:text-[var(--color-primary)] hover:translate-x-1 transition-all duration-200">TIKTOK</a>
-              <a href="#" className="text-base text-[var(--color-dark)] hover:text-[var(--color-primary)] hover:translate-x-1 transition-all duration-200">FACEBOOK</a>
+              <a 
+                href="https://www.instagram.com/theoriginalmunich/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-base text-[var(--color-dark)] hover:text-[var(--color-primary)] hover:translate-x-1 transition-all duration-200"
+              >
+                INSTAGRAM
+              </a>
+              <a 
+                href="https://wolt.com/de/deu/munich/restaurant/the-original-burger-tacos?srsltid=AfmBOopl7TuwZAm90WNUXuZZ527bvjniVn-tqqHHSESrxagdy-TK9hVS" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-base text-[var(--color-dark)] hover:text-[var(--color-primary)] hover:translate-x-1 transition-all duration-200"
+              >
+                JETZT BESTELLEN
+              </a>
             </div>
           </div>
         </div>
