@@ -75,7 +75,7 @@ export default function CateringPage() {
               </div>
             </div>
             <p className="text-lg text-[var(--color-dark)] leading-[1.4] tracking-wide">
-              WIR BRINGEN EUCH DIE BESTEN SMASH BURGERS & TACOS DIREKT ZU EUREM EVENT.
+              WIR BRINGEN EUCH DIE BESTEN SMASH BURGERS &amp; TACOS DIREKT ZU EUREM EVENT.
             </p>
           </div>
 
@@ -101,10 +101,10 @@ export default function CateringPage() {
       <section className="w-full flex items-center h-[60px] bg-[var(--color-primary)] border-b-2 border-[var(--color-primary)] overflow-hidden">
         <div className="flex whitespace-nowrap animate-marquee">
           <span className="text-white text-[28px] leading-none tracking-wider">
-            THE ORIGINAL MUNICH • BURGER AND TACOS • 15 YEARS EXPERIENCE • THE ORIGINAL MUNICH • BURGER AND TACOS • 15 YEARS EXPERIENCE •
+            THE ORIGINAL MUNICH • BURGER AND TACOS • 15 JAHRE ERFAHRUNG • THE ORIGINAL MUNICH • BURGER AND TACOS • 15 JAHRE ERFAHRUNG •
           </span>
           <span className="text-white text-[28px] leading-none tracking-wider">
-            THE ORIGINAL MUNICH • BURGER AND TACOS • 15 YEARS EXPERIENCE • THE ORIGINAL MUNICH • BURGER AND TACOS • 15 YEARS EXPERIENCE •
+            THE ORIGINAL MUNICH • BURGER AND TACOS • 15 JAHRE ERFAHRUNG • THE ORIGINAL MUNICH • BURGER AND TACOS • 15 JAHRE ERFAHRUNG •
           </span>
         </div>
       </section>
@@ -156,7 +156,7 @@ export default function CateringPage() {
           {/* Right - Text */}
           <div className="flex-1 bg-white p-12 flex items-center justify-center">
             <p className="text-lg text-[var(--color-dark)] text-center leading-[1.4] tracking-wide">
-              OB KLEIN ODER GROSS: JEDE BESTELLUNG ZÄHLT. OHNE MINDESTBESTELLWERT, OHNE EINSCHRÄNKUNGEN.
+              OB KLEIN ODER GROSS: JEDE BESTELLUNG ZÄHLT. OHNE MINDESTBESTELLWERT, OHNE LIMITS.
             </p>
           </div>
         </div>
@@ -175,7 +175,7 @@ export default function CateringPage() {
           <div className="flex-1 bg-[var(--color-primary)] p-12 flex flex-col justify-center">
             <h2 className="text-[48px] leading-[0.9] text-white">EVENT SERVICES</h2>
             <p className="text-base text-[var(--color-primary-light)] mt-4 leading-[1.4] tracking-wide">
-              VON KLEIN BIS GROSS – WIR CATERN EUREN EVENT MIT LIEBE UND DEN BESTEN ZUTATEN.
+              VON KLEIN BIS GROSS – WIR CATERN EUER EVENT MIT LIEBE UND DEN BESTEN ZUTATEN.
             </p>
           </div>
         </div>
@@ -198,7 +198,7 @@ export default function CateringPage() {
             UNSERE PHILOSOPHIE
           </span>
           <p className="text-[32px] leading-[1.3] text-[var(--color-primary-light)] text-center w-full mt-6 max-w-[800px] tracking-wide">
-            WIR MACHEN KEINE TRENDS – WIR MACHEN GESCHMACK. BURGER UND TACOS, SO WIE SIE GEDACHT SIND: EHRLICH, FRISCH UND KOMPROMISSLOS GUT.
+            WIR MACHEN KEINE TRENDS – WIR MACHEN GESCHMACK. BURGERS UND TACOS, SO WIE SIE GEDACHT SIND: EHRLICH, FRESH UND KOMPROMISSLOS GUT.
           </p>
           <a
             href="mailto:catering@original.catering?subject=EVENT%20CATERING%20ANFRAGE"

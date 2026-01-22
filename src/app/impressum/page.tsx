@@ -33,9 +33,9 @@ export default function ImpressumPage() {
               </h2>
               <div className="bg-[var(--color-primary-light)] p-6 border-l-4 border-[var(--color-primary)]">
                 <p className="text-base text-[var(--color-dark)] leading-relaxed">
-                  <strong className="text-[var(--color-primary)]">The Original München</strong><br /><br />
-                  Musterstraße 123<br />
-                  80331 München<br />
+                  <strong className="text-[var(--color-primary)]">The Original Hegewisch & Bangol GbR</strong><br /><br />
+                  Kaiserstrasse 45<br />
+                  80801 München<br />
                   Deutschland
                 </p>
               </div>
@@ -107,9 +107,9 @@ export default function ImpressumPage() {
               </h2>
               <p className="text-base text-[var(--color-dark)] leading-relaxed">
                 Verantwortlich nach § 55 Abs. 2 RStV:<br /><br />
-                Max Mustermann<br />
-                Musterstraße 123<br />
-                80331 München
+                The Original Hegewisch & Bangol GbR<br />
+                Kaiserstrasse 45<br />
+                80801 München
               </p>
             </div>
 

@@ -12,9 +12,9 @@ export function Footer() {
               <Image src="/logo.png" alt="The Original" width={150} height={50} className="object-contain" />
             </a>
             <p className="text-base leading-[1.4] text-[var(--color-dark)] w-[300px]">
-              HANDCRAFTED SMASH BURGERS AND
+              HANDGEMACHTE SMASH BURGERS UND
               <br />
-              AUTHENTIC TACOS IN MUNICH.
+              AUTHENTIC TACOS IN MÜNCHEN.
             </p>
           </div>
 
@@ -24,9 +24,9 @@ export function Footer() {
             <div className="flex flex-col gap-3">
               <span className="text-sm text-[var(--color-primary)] tracking-[2px]">QUICK LINKS</span>
               <a href="/#menu" className="text-base text-[var(--color-dark)] hover:text-[var(--color-primary)] hover:translate-x-1 transition-all duration-200">MENU</a>
-              <a href="/#locations" className="text-base text-[var(--color-dark)] hover:text-[var(--color-primary)] hover:translate-x-1 transition-all duration-200">LOCATIONS</a>
+              <a href="/#locations" className="text-base text-[var(--color-dark)] hover:text-[var(--color-primary)] hover:translate-x-1 transition-all duration-200">STANDORTE</a>
               <a href="/catering" className="text-base text-[var(--color-dark)] hover:text-[var(--color-primary)] hover:translate-x-1 transition-all duration-200">CATERING</a>
-              <a href="#" className="text-base text-[var(--color-dark)] hover:text-[var(--color-primary)] hover:translate-x-1 transition-all duration-200">ABOUT US</a>
+              <a href="#" className="text-base text-[var(--color-dark)] hover:text-[var(--color-primary)] hover:translate-x-1 transition-all duration-200">ÜBER UNS</a>
             </div>
 
             {/* Social Links */}
@@ -42,7 +42,7 @@ export function Footer() {
         {/* Bottom Section */}
         <div className="flex items-center justify-between w-full pt-6 border-t border-[var(--color-primary)]">
           <span className="text-xs text-[var(--color-dark)]">
-            © 2026 THE ORIGINAL MÜNCHEN. ALL RIGHTS RESERVED.
+            © 2026 THE ORIGINAL MÜNCHEN. ALLE RECHTE VORBEHALTEN.
           </span>
           <div className="flex gap-6">
             <a href="/datenschutz" className="text-xs text-[var(--color-dark)] hover:text-[var(--color-primary)] transition-colors">DATENSCHUTZ</a>

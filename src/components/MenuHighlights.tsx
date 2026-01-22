@@ -24,7 +24,7 @@ function MenuCard({ image, title, description, price }: MenuCardProps) {
         <div className="flex items-center justify-between w-full">
           <span className="text-[28px] text-[var(--color-primary)]">{price}</span>
           <button className="px-5 py-2.5 bg-[var(--color-primary)] text-white text-sm hover:bg-[#d91f3a] hover:shadow-md active:scale-95 transition-all duration-200">
-            ADD
+            HINZUFÜGEN
           </button>
         </div>
       </div>
@@ -36,20 +36,20 @@ export function MenuHighlights() {
   const menuItems = [
     {
       image: "/images/og-smash.jpeg",
-      title: "THE OG SMASH",
-      description: "DOUBLE BEEF PATTY, AMERICAN CHEESE, PICKLES, ONIONS, SECRET SAUCE.",
-      price: "€12.50",
+      title: "ORIGINAL CHEESEBURGER",
+      description: "BAVARIAN BEEF, AMERICAN CHEESE, ONIONS, TOMATOES, BURGER SAUCE.",
+      price: "€10.50",
     },
     {
       image: "/images/birria-tacos.jpeg",
-      title: "BIRRIA TACOS",
-      description: "SLOW COOKED BEEF, MELTED CHEESE, ONION, CILANTRO, CONSOMMÉ DIP.",
-      price: "€14.00",
+      title: "STEAK TACO",
+      description: "BAVARIAN STEAK, GESCHMOLZENEM KÄSE, ZWIEBELN UND KORIANDER (1 STK).",
+      price: "€3.90",
     },
     {
       image: "/images/fish-tacos.jpeg",
-      title: "LOADED FRIES",
-      description: "CRISPY FRIES, CHEESE SAUCE, BACON BITS, JALAPENOS, GREEN ONIONS.",
+      title: "GUACAMOLE MIT CHIPS",
+      description: "FRISCH GEMACHTE GUACAMOLE MIT CRISPY CHIPS.",
       price: "€6.50",
     },
   ];
@@ -60,14 +60,14 @@ export function MenuHighlights() {
         {/* Header */}
         <div className="flex items-end justify-between w-full">
           <div className="flex flex-col gap-2">
-            <span className="text-sm text-[var(--color-primary)] tracking-[2px]">OUR SPECIALTIES</span>
+            <span className="text-sm text-[var(--color-primary)] tracking-[2px]">UNSERE SPECIALTIES</span>
             <h2 className="text-[64px] leading-[0.9] text-[var(--color-dark)]">FAN FAVORITES</h2>
           </div>
           <a
             href="#"
             className="px-7 py-3.5 bg-[var(--color-primary)] text-white text-base rounded-full border-2 border-[var(--color-primary)] hover:bg-[#d91f3a] hover:-translate-y-0.5 transition-all duration-200 shadow-[var(--shadow-button)]"
           >
-            VIEW ALL
+            ALLES ANSEHEN
           </a>
         </div>
 

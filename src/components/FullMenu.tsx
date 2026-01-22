@@ -11,7 +11,7 @@ function MenuItem({ title, description, price }: MenuItemProps) {
     <div className="group flex items-center justify-between w-full py-3 border-b border-[var(--color-primary)] hover:bg-white/50 hover:px-3 transition-all duration-200 cursor-pointer">
       <div className="flex flex-col gap-1">
         <span className="text-lg text-[var(--color-dark)] group-hover:text-[var(--color-primary)] transition-colors">{title}</span>
-        <span className="text-xs text-[var(--color-dark)] opacity-70">{description}</span>
+        {description && <span className="text-xs text-[var(--color-dark)] opacity-70">{description}</span>}
       </div>
       <span className="text-lg text-[var(--color-dark)] group-hover:text-[var(--color-primary)] transition-colors">{price}</span>
     </div>
@@ -20,15 +20,15 @@ function MenuItem({ title, description, price }: MenuItemProps) {
 
 export function FullMenu() {
   const burgers = [
-    { title: "THE OG SMASH", description: "DOUBLE PATTY, CHEESE, PICKLES, SECRET SAUCE", price: "€12.50" },
-    { title: "DOUBLE STACK", description: "FOUR PATTIES, EXTRA CHEESE, BACON, ONION RINGS", price: "€16.00" },
-    { title: "VEGGIE SMASH", description: "PLANT-BASED PATTY, AVOCADO, TOMATO, VEGAN SAUCE", price: "€13.00" },
+    { title: "ORIGINAL CHEESEBURGER", description: "BAVARIAN BEEF, AMERICAN CHEESE, ONIONS, TOMATOES, BURGER SAUCE", price: "€10.50" },
+    { title: "VEGGIE BURGER", description: "BEYOND MEAT, AMERICAN CHEESE, TOMATOES, ONIONS, BURGER SAUCE", price: "€10.50" },
   ];
 
   const tacos = [
-    { title: "BIRRIA TACOS (3)", description: "SLOW-COOKED BEEF, CHEESE, CILANTRO, CONSOMMÉ", price: "€14.00" },
-    { title: "CARNITAS TACOS (3)", description: "CRISPY PORK, ONION, CILANTRO, LIME", price: "€12.00" },
-    { title: "LOADED FRIES", description: "CHEESE SAUCE, BACON, JALAPENOS, GREEN ONION", price: "€6.50" },
+    { title: "STEAK TACO", description: "BAVARIAN STEAK, GESCHMOLZENEM KÄSE, ZWIEBELN UND KORIANDER (1 STK)", price: "€3.90" },
+    { title: "VEGGIE TACO", description: "PILZE, GESCHMOLZENEN KÄSE, ZWIEBEL UND KORIANDER (1 STK)", price: "€3.90" },
+    { title: "GUACAMOLE MIT CHIPS", description: "", price: "€6.50" },
+    { title: "POMMES", description: "", price: "€3.90" },
   ];
 
   return (
@@ -46,7 +46,7 @@ export function FullMenu() {
           <div className="absolute bottom-12 left-12 flex flex-col gap-6">
             <h2 className="text-[72px] leading-[0.9] text-white">FULL MENU</h2>
             <p className="text-lg leading-[1.4] text-white w-[400px] tracking-wide">
-              EXPLORE OUR COMPLETE SELECTION OF SMASH BURGERS, TACOS, AND SIDES.
+              ENTDECKE UNSERE KOMPLETTE AUSWAHL AN SMASH BURGERS, TACOS UND SIDES.
             </p>
           </div>
         </div>

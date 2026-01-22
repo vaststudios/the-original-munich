@@ -7,7 +7,7 @@ export function Hero() {
         {/* Left Side - Text Content */}
         <div className="flex flex-col justify-between flex-1 bg-white p-12 pb-12 pt-16 border-r-2 border-[var(--color-primary)]">
           <p className="text-lg text-[var(--color-dark)] leading-[1.4] w-[400px] tracking-wide">
-            SMASH BURGERS &amp; AUTHENTIC TACOS. HANDCRAFTED WITH LOVE IN THE HEART OF MUNICH.
+            SMASH BURGERS &amp; AUTHENTIC TACOS. HANDGEMACHT MIT LIEBE IM HERZEN VON MÜNCHEN.
           </p>
 
           <div className="flex flex-col gap-5">
@@ -44,7 +44,7 @@ export function Hero() {
             href="#menu"
             className="absolute left-12 bottom-[120px] px-8 py-4 bg-[var(--color-primary)] text-white text-lg rounded-full border-2 border-[var(--color-primary)] hover:bg-[#d91f3a] hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
           >
-            VIEW MENU
+            MENU ANSEHEN
           </a>
         </div>
       </div>
