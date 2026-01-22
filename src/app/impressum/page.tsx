@@ -8,14 +8,14 @@ export default function ImpressumPage() {
 
       {/* Hero Section */}
       <section className="w-full bg-[var(--color-primary-light)]">
-        <div className="flex flex-col w-full max-w-[1180px] mx-auto border-x-2 border-b-2 border-[var(--color-primary)] bg-white p-12">
-          <span className="inline-block px-4 py-2 border-2 border-[var(--color-primary)] rounded-full text-sm text-[var(--color-primary)] tracking-[2px] w-fit mb-6">
+        <div className="flex flex-col w-full max-w-[1180px] mx-auto border-x-2 border-b-2 border-[var(--color-primary)] bg-white p-6 md:p-12">
+          <span className="inline-block px-3 md:px-4 py-1.5 md:py-2 border-2 border-[var(--color-primary)] rounded-full text-xs md:text-sm text-[var(--color-primary)] tracking-[2px] w-fit mb-4 md:mb-6">
             RECHTLICHES
           </span>
-          <h1 className="text-[64px] leading-[0.9] text-[var(--color-primary)] mb-4">
+          <h1 className="text-[32px] md:text-[64px] leading-[0.9] text-[var(--color-primary)] mb-3 md:mb-4">
             IMPRESSUM
           </h1>
-          <p className="text-lg text-[var(--color-dark)] opacity-70">
+          <p className="text-sm md:text-lg text-[var(--color-dark)] opacity-70">
             ANGABEN GEMÄSS § 5 TMG
           </p>
         </div>
@@ -23,8 +23,8 @@ export default function ImpressumPage() {
 
       {/* Content Section */}
       <section className="w-full bg-[var(--color-primary-light)]">
-        <div className="w-full max-w-[1180px] mx-auto border-x-2 border-b-2 border-[var(--color-primary)] bg-white p-12">
-          <div className="flex flex-col gap-12 max-w-[800px]">
+        <div className="w-full max-w-[1180px] mx-auto border-x-2 border-b-2 border-[var(--color-primary)] bg-white p-6 md:p-12">
+          <div className="flex flex-col gap-8 md:gap-12 max-w-[800px]">
 
             {/* Company Info */}
             <div className="flex flex-col gap-4">
@@ -114,58 +114,58 @@ export default function ImpressumPage() {
             </div>
 
             {/* Disclaimer */}
-            <div className="flex flex-col gap-4">
-              <h2 className="text-2xl text-[var(--color-dark)] border-b-2 border-[var(--color-primary)] pb-2">
+            <div className="flex flex-col gap-3 md:gap-4">
+              <h2 className="text-xl md:text-2xl text-[var(--color-dark)] border-b-2 border-[var(--color-primary)] pb-2">
                 HAFTUNGSAUSSCHLUSS
               </h2>
 
-              <h3 className="text-lg text-[var(--color-primary)] mt-4">Haftung für Inhalte</h3>
-              <p className="text-base text-[var(--color-dark)] leading-relaxed">
+              <h3 className="text-base md:text-lg text-[var(--color-primary)] mt-3 md:mt-4">Haftung für Inhalte</h3>
+              <p className="text-sm md:text-base text-[var(--color-dark)] leading-relaxed">
                 Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
               </p>
-              <p className="text-base text-[var(--color-dark)] leading-relaxed">
+              <p className="text-sm md:text-base text-[var(--color-dark)] leading-relaxed">
                 Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
               </p>
 
-              <h3 className="text-lg text-[var(--color-primary)] mt-4">Haftung für Links</h3>
-              <p className="text-base text-[var(--color-dark)] leading-relaxed">
+              <h3 className="text-base md:text-lg text-[var(--color-primary)] mt-3 md:mt-4">Haftung für Links</h3>
+              <p className="text-sm md:text-base text-[var(--color-dark)] leading-relaxed">
                 Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.
               </p>
-              <p className="text-base text-[var(--color-dark)] leading-relaxed">
+              <p className="text-sm md:text-base text-[var(--color-dark)] leading-relaxed">
                 Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar.
               </p>
             </div>
 
             {/* Copyright */}
-            <div className="flex flex-col gap-4">
-              <h2 className="text-2xl text-[var(--color-dark)] border-b-2 border-[var(--color-primary)] pb-2">
+            <div className="flex flex-col gap-3 md:gap-4">
+              <h2 className="text-xl md:text-2xl text-[var(--color-dark)] border-b-2 border-[var(--color-primary)] pb-2">
                 URHEBERRECHT
               </h2>
-              <p className="text-base text-[var(--color-dark)] leading-relaxed">
+              <p className="text-sm md:text-base text-[var(--color-dark)] leading-relaxed">
                 Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
               </p>
-              <p className="text-base text-[var(--color-dark)] leading-relaxed">
+              <p className="text-sm md:text-base text-[var(--color-dark)] leading-relaxed">
                 Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet.
               </p>
             </div>
 
             {/* Dispute Resolution */}
-            <div className="flex flex-col gap-4">
-              <h2 className="text-2xl text-[var(--color-dark)] border-b-2 border-[var(--color-primary)] pb-2">
+            <div className="flex flex-col gap-3 md:gap-4">
+              <h2 className="text-xl md:text-2xl text-[var(--color-dark)] border-b-2 border-[var(--color-primary)] pb-2">
                 STREITSCHLICHTUNG
               </h2>
-              <p className="text-base text-[var(--color-dark)] leading-relaxed">
+              <p className="text-sm md:text-base text-[var(--color-dark)] leading-relaxed">
                 Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
                 <a
                   href="https://ec.europa.eu/consumers/odr"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[var(--color-primary)] hover:underline ml-1"
+                  className="text-[var(--color-primary)] hover:underline ml-1 break-all"
                 >
                   https://ec.europa.eu/consumers/odr
                 </a>
               </p>
-              <p className="text-base text-[var(--color-dark)] leading-relaxed">
+              <p className="text-sm md:text-base text-[var(--color-dark)] leading-relaxed">
                 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
               </p>
             </div>
@@ -176,13 +176,13 @@ export default function ImpressumPage() {
 
       {/* CTA Section */}
       <section className="w-full bg-[var(--color-primary)] border-b-2 border-[var(--color-primary)]">
-        <div className="flex flex-col items-center px-12 py-16 max-w-[1180px] mx-auto">
-          <p className="text-xl text-white text-center tracking-wide">
+        <div className="flex flex-col items-center px-6 md:px-12 py-12 md:py-16 max-w-[1180px] mx-auto">
+          <p className="text-lg md:text-xl text-white text-center tracking-wide">
             FRAGEN ODER ANREGUNGEN?
           </p>
           <a
             href="mailto:info@original.catering?subject=KONTAKT"
-            className="mt-6 px-10 py-4 bg-white text-[var(--color-dark)] text-lg border-2 border-[var(--color-primary)] hover:bg-[var(--color-primary-light)] hover:-translate-y-1 transition-all duration-300"
+            className="mt-4 md:mt-6 px-6 md:px-10 py-3 md:py-4 bg-white text-[var(--color-dark)] text-sm md:text-lg border-2 border-[var(--color-primary)] hover:bg-[var(--color-primary-light)] hover:-translate-y-1 transition-all duration-300"
           >
             KONTAKTIERE UNS →
           </a>
